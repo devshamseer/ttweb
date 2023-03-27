@@ -306,29 +306,33 @@
     }
 
 }
-@media (min-width : 9980px) {
+@media (min-width : 980px) {
   
 
-    .leftimg {
+    .leftimg{
         font-size: 32px;
+        font-weight: 200;
+        /* color: red; */
     }
 
 }
 
 @media (min-width : 1000px) {
     .imleft {
-        margin-left: 170px;
+        margin-left: 290px;
     }
 
-    .leftimg {
+    /* .leftimg{
         font-size: 32px;
-    }
+        color: green;
+    } */
 
 }
 
 @media (min-width : 1100px) {
-    .imleft {
-        margin-left: 300px;
-    }
+    /* .leftimg{
+        font-size: 32px;
+        color: green;
+    } */
 
 }
