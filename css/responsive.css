@@ -1,0 +1,322 @@
+@media (max-width : 767.98px) {
+
+    .product-check li,
+    .consulting-check li {
+        padding-left: 2em;
+    }
+
+    .product-check li::before,
+    .consulting-check li::before {
+        content: "";
+        background-image: url('../images/red-tick.svg');
+        background-size: 16px 16px;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+    }
+
+    .consulting-check li::before {
+        background-image: url('../images/yellow-tick.svg');
+        background-size: 16px 16px;
+    }
+
+    /* html{
+        font-size: calc((var(--base) / 16) * 100%);
+    } */
+    .navbar-nav-scroll {
+        max-height: none !important
+    }
+
+    h6 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .banner-gradient-wrapper {
+        height: auto;
+        text-align: center;
+        padding: 35px 0;
+    }
+
+    .banner-gradient-wrapper .banner-img {
+        position: static;
+    }
+
+    .banner-gradient-wrapper .banner-img img {
+        max-width: 100%;
+        margin: auto;
+        width: auto;
+    }
+
+    .banner-gradient-wrapper h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 2.5rem;
+        margin-top: 5rem;
+    }
+
+    .main-title {
+        font-size: 2.4rem;
+    }
+
+    .appro-info {
+        height: auto;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .customer-logo-flex li {
+        margin: 15px 0;
+    }
+
+    .customer-logo-flex li img {
+        max-width: 80%;
+    }
+
+    .customer-wrapper {
+        padding: 10rem 0 0 0;
+        margin-top: -5rem;
+    }
+
+    .what-we-offer-wrapper .col-md-12,
+    .offer-list {
+        text-align: center;
+
+    }
+
+    .smallimag{
+        height: 210px;
+    }
+
+    .what-we-offer-wrapper img {
+        max-width: 75%;
+        margin-bottom: 2.0rem;
+    }
+
+    .what-we-offer-wrapper .offer-list h6 {
+        font-size: 2.0rem;
+    }
+
+    .what-we-offer-wrapper .offer-list p {
+        font-size: 1.2rem;
+    }
+
+    .what-we-offer .col-md-12 img {
+        max-width: 85%;
+    }
+
+    .what-we-offer-wrapper .offer-list .btn {
+        margin-top: 2.5rem;
+        padding: 13px;
+        box-shadow: none;
+        width: 60%;
+    }
+
+    .appro-info p {
+        font-size: 1.2rem
+    }
+}
+
+@media (max-width : 575.98px) {
+    .manage-card h3 {
+        text-align: left;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 56px;
+        width: 100%;
+        background: white;
+        left: 0px;
+    }
+
+    .navbar {
+        z-index: 9;
+    }
+
+    .column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .column-reverse .text-end {
+        text-align: center !important;
+    }
+
+    footer .align-items-end {
+        align-items: flex-start !important;
+    }
+
+    .copyright p,
+    .copyright a {
+        font-size: .8rem;
+    }
+
+    .banner-gradient-wrapper h1 {
+        font-size: 1.6rem;
+    }
+
+    .banner-gradient-wrapper p {
+        font-size: 1.2rem;
+    }
+
+    .banner-gradient-wrapper .btn-white {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .banner-half h1,
+    .banner-half p {
+        text-align: left;
+    }
+
+    .banner-half .col-12 img {
+        margin-bottom: 15px;
+    }
+
+    .banner-half .col-12 h1,
+    .banner-half .col-12 p {
+        text-align: center;
+    }
+
+    .banner-half h1 {
+        margin: 0 0 10px 0;
+    }
+
+    .banner-half img {
+        max-width: 50%;
+    }
+
+    .product-wrapper {
+        text-align: center;
+    }
+
+    .product-wrapper img,
+    .product-wrapper h1 {
+        text-align: center;
+    }
+
+    .product-wrapper img {
+        max-width: 80%;
+        margin-bottom: 2.0rem;
+    }
+
+    .product-wrapper h1 {
+        font-size: 2.0rem;
+    }
+
+    .product-wrapper h1 span {
+        display: inline-block;
+    }
+
+    .product-wrapper p {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    .product-wrapper .btn-primary {
+        box-shadow: none;
+        max-width: 80%;
+        width: 80%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .pt-7 {
+        padding-top: 2rem;
+    }
+
+    .pb-7 {
+        padding-bottom: 2rem;
+    }
+
+    .cust-say-wrapper {
+        height: auto;
+        margin: 4rem 0 1rem 0;
+    }
+
+    .cust-say-wrapper p {
+        font-size: 1.2rem;
+    }
+
+    .cust-say-wrapper h4 {
+        font-size: 2rem;
+    }
+
+    .product-check li,
+    .consulting-check li {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    .product-check,
+    .consulting-check {
+        margin: 2rem 0;
+    }
+
+    .get-link a {
+        font-size: 1.6rem;
+    }
+
+
+    .contact-form>p {
+        font-size: 1.2rem;
+    }
+
+    .contact-form .btn-primary {
+        width: 100%;
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .main-title {
+        text-align: left;
+    }
+
+    .main-title::after {
+        height: 0.1rem;
+    }
+
+    .manage-card {
+        margin: 2rem 1rem 2rem 1rem;
+        height: 25rem;
+    }
+
+    .manage-card.mt-0 {
+        margin-top: 3rem !important;
+    }
+
+    .manage-wrapper {
+        display: block;
+    }
+
+    .manage-flex {
+        margin-top: 0 !important;
+        max-width: 100%;
+    }
+
+    .output-img {
+        margin: 0 0 8rem 0;
+    }
+
+    .output-img img {
+        width: 60px;
+    }
+
+}
+
+@media (min-width : 1000px)  {
+    .imleft{
+        margin-left: 170px;
+    }
+    
+}
+
+@media (min-width : 1100px)  {
+    .imleft{
+        margin-left: 300px;
+    }
+    
+}
