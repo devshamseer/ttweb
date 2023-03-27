@@ -87,7 +87,7 @@
 
     }
 
-    .smallimag{
+    .smallimag {
         height: 210px;
     }
 
@@ -306,17 +306,29 @@
     }
 
 }
+@media (min-width : 9980px) {
+  
 
-@media (min-width : 1000px)  {
-    .imleft{
-        margin-left: 170px;
+    .leftimg {
+        font-size: 44px;
     }
-    
+
 }
 
-@media (min-width : 1100px)  {
-    .imleft{
+@media (min-width : 1000px) {
+    .imleft {
+        margin-left: 170px;
+    }
+
+    .leftimg {
+        font-size: 44px;
+    }
+
+}
+
+@media (min-width : 1100px) {
+    .imleft {
         margin-left: 300px;
     }
-    
+
 }
